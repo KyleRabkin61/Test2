@@ -1,0 +1,61 @@
+.container {
+    padding: 20px;
+}
+
+.row {
+    margin: 300px 0;
+}
+
+@media (min-width: 992px) {
+    .one {
+        background: orange !important;
+        width:50vw !important;
+        position: relative;
+        left: 50px;
+    }
+    .two {
+        background: green !important;
+        width: 30vw !important;
+        position: relative;
+        left: 50px;
+    }
+    .three {
+        background: orange !important;
+        width:50vw !important;
+        position: relative;
+        right: 50px;
+    }
+    .four {
+        background: green !important;
+        width: 30vw !important;
+        position: relative;
+        right: 50px;
+    }
+}
+.one {
+    height: 600px;
+    width: clamp(600px, 70vw, 900px);
+    background: red;
+    z-index: 1;
+}
+.two {
+    height: clamp(300px, 30vw, 600px);
+    width: clamp(450px, 40vw, 500px);
+    background: blue;
+    z-index: 2;
+    margin: -100px;
+}
+
+.three {
+    height: 600px;
+    width: clamp(600px, 70vw, 900px);
+    background: red;
+    z-index: 1;
+}
+.four {
+    height: clamp(300px, 30vw, 600px);
+    width: clamp(450px, 40vw, 500px);
+    background: blue;
+    z-index: 2;
+    margin: -100px;
+}
