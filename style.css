@@ -40,7 +40,7 @@
 }
 .two {
     height: clamp(300px, 30vw, 500px);
-    width: clamp(450px, 40vw, 500px);
+    width: clamp(350px, 45vw, 500px);
     background: blue;
     z-index: 2;
     margin: -100px;
@@ -55,7 +55,7 @@
 }
 .four {
     height: clamp(300px, 30vw, 500px);
-    width: clamp(450px, 40vw, 500px);
+    width: clamp(350px, 40vw, 500px);
     background: blue;
     z-index: 2;
     margin: -100px;
